@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--Stone-100);
+    justify-content: center;
+    display: flex;
+}
+
+.fundo{
+    background-color: var(--White);
+    height: 152vh;
+    width: 700px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagem{
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+img{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.titulo{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.paragrafo{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 15px;
+    color: var(--Stone-600);
+    font-weight: 250;
+}
+
+.quadrado-rosa{
+    background-color: var(--Rose-50);
+    height: 150px;
+    width: 95%;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.titulo-rosa{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px;
+    margin-left: 7px;
+    color: var(--Rose-800);
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+.lista-tempo li{
+    padding-left: 15px;
+    margin-left: 6px;
+    margin-top: 7px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--Brown-800);
+    font-weight: 150
+}
+
+.lista-tempo li::marker{
+    color: var(--Rose-800);
+}
+
+.stone{
+    color: var(--Stone-600);
+    font-weight: 900;
+}
+
+.titulo-ingredientes{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: var(--Brown-800);
+}
+
+.lista-ingredientes li{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--Stone-600);
+}
+
+.lista-ingredientes li::marker{
+    color: var(--Brown-800);
+    
+}
+
+.ul-ingredientes{
+    padding: 0px;
+    padding-left: 40px;
+}
+
+.li-ingredientes{
+    padding-left: 40px;
+    
+}
+
+.titulo-instrucoes{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: var(--Brown-800);
+}
+
+.titulo-instrucoes ol{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+.t-um{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-dois{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-tres{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-quatro{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-cinco{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-seis{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ol-instrucoes{
+    padding: 0px;
+    padding-left: 25px;
+    
+}
+
+.li-instrucoes{
+    padding-left: 20px;
+    margin-top: 10px;
+    color: var(--Stone-600);
+    font-weight: 600;
+}
+
+.ol-instrucoes li::marker{
+    color: var(--Brown-800);
+    font-weight: 900;
+    
+}
+
+.titulo-Nutricao{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: var(--Brown-800);
+}
+
+.paragrafo-nutricao{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 15px;
+    color: var(--Stone-600);
+}
+
+.calorias{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone-600)
+}
+
+.kcal{
+    margin-left: 245px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--Brown-800);
+}
+
+.carbs{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone-600);
+}
+
+.cg{
+    margin-left: 260px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--Brown-800);
+}
+
+
+.protein{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone-600);
+}
+
+.pg{
+    margin-left: 251px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--Brown-800);
+}
+
+
+.fat{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone-600);
+}
+
+.fg{
+    margin-left: 280px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--Brown-800);
+}

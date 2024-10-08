@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div> nav{
+    background-color: darkgreen;
+}
+div> .bar > ul > li{
+    color: darkred;
+}
+.paragrafo strong{
+    background-color: purple;
+}
+h1+p{ /* temos o + e ~ */
+    background-color: lawngreen;
+}
